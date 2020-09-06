@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5FE1B18ECB85B09FCDBBE381 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30DDAF090F60688C19BB85A /* Pods_Instagram.framework */; };
+		69080E9C250564E700F560E5 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69080E9B250564E700F560E5 /* Models.swift */; };
 		6939CBAE24EED64700A82AAB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6939CBAD24EED64700A82AAB /* Extensions.swift */; };
 		696BB32B25041E4700900769 /* FormTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696BB32A25041E4700900769 /* FormTableViewCell.swift */; };
 		696BB32E2504272D00900769 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696BB32D2504272D00900769 /* PhotoCollectionViewCell.swift */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		049C6080DA5F46C4B8351E8E /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
+		69080E9B250564E700F560E5 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		6939CBAD24EED64700A82AAB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		696BB32A25041E4700900769 /* FormTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTableViewCell.swift; sourceTree = "<group>"; };
 		696BB32D2504272D00900769 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 		697739E324ED8022003052F9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				69080E9B250564E700F560E5 /* Models.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -393,6 +396,7 @@
 				699822A225036066001E6B45 /* IGFeedPostHeaderTableViewCell.swift in Sources */,
 				69773A0224ED84C8003052F9 /* PostEditorViewController.swift in Sources */,
 				69AA559124EDB4CC00EA2303 /* StorageManager.swift in Sources */,
+				69080E9C250564E700F560E5 /* Models.swift in Sources */,
 				696BB32B25041E4700900769 /* FormTableViewCell.swift in Sources */,
 				697739F624ED83C1003052F9 /* PostViewController.swift in Sources */,
 				696BB332250427EA00900769 /* ProfileTabsCollectionReusableView.swift in Sources */,
